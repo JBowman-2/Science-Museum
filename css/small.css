@@ -11,15 +11,25 @@ body {
 
 
 /* header */
+div#headerWrapper {
+    background: linear-gradient(to top, rgb(79, 103, 134) , #002F6B 100%);
+
+}
+
 header {
-    background: linear-gradient(to top, rgb(212, 151, 36) , rgb(75, 49, 2) 100%);
+    
     padding: 1rem 2%;
     color: white;
 }
 
+header img {
+    float: left;
+    padding-right: 15px;
+}
+
 header h1 {
     font-size: 1.9rem;
-    margin: 0;
+    margin: 10px 0px 0px 0px;
 }
 
 header h2 {
@@ -30,9 +40,12 @@ header h2 {
 
 /* navigation */
 
+div#navWrapper {
+    background-color: #33027c;
+}
+
 nav {
-    margin-bottom: 0px;
-    background-color: #002F6B
+    margin-bottom: 0px;   
 }
 
 nav ul {
@@ -44,7 +57,7 @@ nav li {
 }
 
 nav li.active { 
-    background-color: #1D61B8;
+    background-color: #002F6B;
     
 }
 
@@ -58,13 +71,12 @@ nav a {
 }
 
 nav a.active {
-    color: #FFBD42;
     font-weight: 700;
 }
 
 nav a:hover {
-    background-color: black;
-    color: #FFBD42;
+    background-color: white;
+    color: #002F6B;
 }
 
 /* main */
@@ -91,17 +103,6 @@ main figure {
     
 }
 
-main figcaption {
-    text-align: center;
-    font-size: .7rem;
-}
-
-main figcaption {
-    margin: 10px;
-    font-weight: 700;
-    font-size: 1rem;
-    color: #002F6B;
-}
 
 .clearfix:after {
     content: "";
@@ -109,10 +110,12 @@ main figcaption {
     clear: both;
 }
 
+div#footerWrapper {
+    background-color: #002F6B;
+}
 
 footer {
     text-align: center;
-    padding: 1rem 2%;
-    background-color: rgb(75, 49, 2);
+    padding: 1rem 2%; 
     color: white;
 }
