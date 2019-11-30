@@ -439,7 +439,10 @@ nav ul {
   padding: 0px; }
 
 nav li {
-  list-style-type: none; }
+  float: left;
+  width: 50%;
+  list-style-type: none;
+  text-align: center; }
 
 nav li.active {
   background-color: white; }

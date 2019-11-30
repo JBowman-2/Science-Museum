@@ -56,7 +56,11 @@ nav ul {
 }
 
 nav li {
+    float: left;
+    width: 50%;
     list-style-type: none;
+    text-align: center;
+    
 }
 
 nav li.active { 
