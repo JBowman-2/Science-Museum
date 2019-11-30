@@ -5,8 +5,7 @@ html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
 /* body */
 
 body {
-    font-family: $fontFamily;
-    font-weight: $regularWeight;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -19,7 +18,7 @@ div#headerWrapper {
 
 header {
     
-    padding: 1rem $gutter;
+    padding: 1rem 2%;
     color: white;
 }
 
@@ -30,12 +29,11 @@ header img {
 
 header h1 {
     font-size: 2.5rem;
-    font-weight: $heavyWeight;
     margin: 25px 0px 0px 0px;
 }
 
 header h2 {
-    font-weight: $regularWeight;
+    font-weight: 400;
     font-size: 1.1rem;
     margin: 0;
     display: none;
@@ -44,7 +42,7 @@ header h2 {
 /* navigation */
 
 div#navWrapper {
-    background-color: $primaryColor;
+    background-color: #33027c;
 }
 
 nav {
@@ -74,8 +72,8 @@ nav a {
 }
 
 nav a.active {
-    font-weight: $heavyWeight;
-    color: $primaryColor;
+    font-weight: 700;
+    color: #33027c;
 }
 
 nav a:hover {
@@ -86,11 +84,11 @@ nav a:hover {
 /* main */
 main {
     background-color: rgb(238, 237, 237);
-    padding: 1rem $gutter;
+    padding: 1rem 2%;
 }
 
 main h1 {
-    color: $primaryColor;
+    color: #33027c;
     margin: 10px 0 0 0;
 
 }
@@ -131,6 +129,6 @@ div#footerWrapper {
 
 footer {
     text-align: center;
-    padding: 1rem $gutter; 
+    padding: 1rem 2%; 
     color: white;
 }

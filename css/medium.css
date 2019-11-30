@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 560px) {
 
     header h1 {
         font-size: 3rem;
@@ -21,7 +21,7 @@ nav li {
 main figure.lights {
     float: right;
     width: 48%;
-    margin: 0 0 0 $gutter;
+    margin: 0 0 0 2%;
 }
 
 div.news {
@@ -31,3 +31,4 @@ div.news {
 }
 
 
+}
