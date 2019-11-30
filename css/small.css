@@ -28,14 +28,15 @@ header img {
 }
 
 header h1 {
-    font-size: 1.9rem;
-    margin: 10px 0px 0px 0px;
+    font-size: 1.2rem;
+    margin: 65px 0px 0px 0px;
 }
 
 header h2 {
     font-weight: 400;
     font-size: 1.1rem;
     margin: 0;
+    display: none;
 }
 
 /* navigation */
@@ -92,16 +93,17 @@ main h1 {
 
 }
 
-main figure img {
-    width:100%;
+picture.heroPhoto {
+    display: block;
+    width: 100%;
+    margin: 0px;
+ 
 }
 
-main figure {
-    border: 2px solid #002F6B;
+picture.heroPhoto img {
     width: 100%;
-    margin: 0;
-    
 }
+
 
 
 .clearfix:after {

@@ -2,13 +2,14 @@
 
     header h1 {
         font-size: 3rem;
-        
+        margin: 10px 0px 0px 0px;
     }
     
     header h2 {
         font-weight: 400;
         font-size: 1.8rem;
         margin: 0;
+        display: block;
     }
 
 
@@ -17,7 +18,7 @@ nav li {
     width: 25%;
 }
 
-main figure {
+main figure.side {
     float: right;
     width: 48%;
     margin-left: 2%;
