@@ -521,12 +521,7 @@ footer {
   main figure.lights {
     float: right;
     width: 48%;
-    margin: 0 0 0 2%; }
-
-  div.news {
-    clear: both;
-    column-count: 2;
-    column-rule: 0px solid red; } }
+    margin: 0 0 0 2%; } }
 @media only screen and (min-width: 1028px) {
   header, nav, main, footer {
     max-width: 75rem;
@@ -542,7 +537,4 @@ footer {
     padding: .5rem 1rem; }
 
   main figure.lights {
-    width: 33%; }
-
-  div.news {
-    column-count: 3; } }
+    width: 33%; } }
