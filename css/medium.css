@@ -18,11 +18,10 @@ nav li {
     width: 25%;
 }
 
-main figure.side {
+main figure.lights {
     float: right;
     width: 48%;
-    margin-left: 2%;
-    margin-bottom: 25px;
+    margin: 0 0 0 2%;
 }
 
 div.news {

@@ -5,7 +5,7 @@ html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
 /* body */
 
 body {
-    font-family: Verdana;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -28,8 +28,8 @@ header img {
 }
 
 header h1 {
-    font-size: 1.2rem;
-    margin: 65px 0px 0px 0px;
+    font-size: 2.5rem;
+    margin: 25px 0px 0px 0px;
 }
 
 header h2 {
@@ -58,7 +58,7 @@ nav li {
 }
 
 nav li.active { 
-    background-color: #002F6B;
+    background-color: white;
     
 }
 
@@ -73,6 +73,7 @@ nav a {
 
 nav a.active {
     font-weight: 700;
+    color: #33027c;
 }
 
 nav a:hover {
@@ -87,9 +88,8 @@ main {
 }
 
 main h1 {
-    color: #6B4909;
-    margin: 0px;
-    margin-bottom: 1rem;
+    color: #33027c;
+    margin: 10px 0 0 0;
 
 }
 
@@ -104,7 +104,18 @@ picture.heroPhoto img {
     width: 100%;
 }
 
+figure.lights img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
 
+figure.lights {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
 
 .clearfix:after {
     content: "";
