@@ -1,4 +1,8 @@
-
+header img {
+    float: left;
+    padding-right: 15px;
+    padding-top: 0;
+}
 
     header h1 {
         font-size: 3rem;
@@ -16,6 +20,10 @@
 nav li {
     float: left;
     width: 25%;
+}
+nav li {
+    border-left: 2px solid white;
+    
 }
 
 main figure.lights {
